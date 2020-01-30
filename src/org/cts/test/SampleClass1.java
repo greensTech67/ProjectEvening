@@ -10,7 +10,11 @@ public class SampleClass1  {
 	
 	
 	public void method2() {
-		System.out.println("methdo2");
+		System.out.println("method2");
+
+	}
+	private void method3() {
+		System.out.println("method3");
 
 	}
 	
@@ -19,6 +23,7 @@ public class SampleClass1  {
 		SampleClass1 obj = new SampleClass1();
 		obj.method1();
 		obj.method2();
+		obj.method3();
 	}
 
 }
