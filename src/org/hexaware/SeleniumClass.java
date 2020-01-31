@@ -26,6 +26,8 @@ public class SeleniumClass {
 		 try {  //Inner Try
 			 System.out.println("I am inner try");
 			 System.out.println(8/0);
+			 System.out.println("Kalai");
+			 
 		 
 			
 		}
